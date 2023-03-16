@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Mukesh Kumar Singh"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/mukeshkumar.jpeg"
   bio    : "I am currently a graduate student at ICTS-TIFR Bengaluru, India."
   links:
     - label: "Website"
