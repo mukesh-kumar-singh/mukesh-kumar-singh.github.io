@@ -60,32 +60,32 @@ plugins:
 author:
   name   : "Mukesh Kumar Singh"
   avatar : "/assets/images/mukeshkumar.jpeg"
-  bio    : "I am currently a graduate student at ICTS-TIFR Bengaluru, India."
+  bio    : "Graduate student, International Centre for Theoretical Sciences (ICTS-TIFR) Bengaluru, India."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://mukesh-kumar-singh.github.io/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/mks1729"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/mukesh-kumar-singh"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/singhmukesh1729/"
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/mks1729"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/mukesh-kumar-singh"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/singhmukesh1729"
 
 defaults:
   # _posts
