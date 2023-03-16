@@ -3,6 +3,5 @@ permalink: /about/
 title: "About"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+I was born in a rural village of Budaun, Uttar Pradesh. I completed my undergradute studies with B.Sc. Physics (Honours) at Sri Venkateswara College, University of Delhi. After that, I moved to Indian Institute of Technology Madras (IITM) to pursue Masters in Physics. Currently, I am pursuing my PhD in Gravitational Wave Astronomy under the supervision of Prof. Parameswaran Ajith at International Centre for Theoretical Sciences (ICTS-TIFR) Bengaluru.
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
