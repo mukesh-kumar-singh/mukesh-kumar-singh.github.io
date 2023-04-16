@@ -5,6 +5,8 @@ title: ""
 
 # Selected Publications
 
+5) **Mukesh Kumar Singh**, Shasvath J. Kapadia, Soummyadip Basak, Parameswaran Ajith, Shriharsh P. Tendulkar, *Déjà-vu et Déjà-entendu: Associating fast radio bursts with compact binary mergers via gravitational lensing*, [arXiv:2304.02879](https://arxiv.org/abs/2304.02879), Submitted to MNRAS.
+
 5) Sourabh Magare, Shasvath J. Kapadia, Anupreeta More, **Mukesh Kumar Singh**, Parameswaran Ajith, A. N. Ramprakash, *Gear-up for the Action Replay: Leveraging Lensing for Enhanced Gravitational-Wave Early-Warning*, [arXiv:2302.02916](https://arxiv.org/abs/2302.02916), Submitted to ApJL.
 
 4) **Mukesh Kumar Singh**, Divyajyoti, Shasvath J. Kapadia, Md Arif Shaikh, Parameswaran Ajith, *Improved early-warning estimates of luminosity distance and orbital inclination of compact binary mergers using higher modes of gravitational radiation*, [arXiv:2202.05802](https://arxiv.org/abs/2202.05802), [MNRAS]( https://doi.org/10.1093/mnras/stac852), Volume 513, Issue 3, July 2022, Pages 3798–3809.
