@@ -12,7 +12,11 @@ black holes, neutron star-black hole and binary neutron stars). Laser Interferom
 <figcaption> 3D Simulation of the first binary black hole merger (GW150914) detected by LIGO.  Credit: SXS Collaboration. </figcaption>
 
 Since the first detection, LIGO in collaboration with Virgo interferometer has observed a plethora of events in various observing runs. This includes many BBH mergers, two binary neutron star (BNS) mergers, and two candidate neutron star-black hole (NSBH) mergers. Among the two BNS mergers, one was detected with its electromagnetic (EM)
-counterpart almost in the whole range of electromagnetic spectrum. This unprecedented joint gravitational and electromagnetic observation provided first direct evidence of a link between these BNS mergers and short γ-ray bursts and offered some hints on the formation of heavy elements in stars. It also provided new tools to study dense matter and cosmology.
+counterpart almost in the whole range of electromagnetic spectrum. This unprecedented joint gravitational and electromagnetic observation provided first direct evidence of a link between these BNS mergers and short γ-ray bursts and offered some hints on the formation of heavy elements in stars. It also provided new tools to study dense matter and cosmology. To realize the full scientific potential of such events, one would need to detect and indetify the source location promptly. This will enable astronomers to point their telescopes to the source location before transient EM emission fades away. A significant part of my research focuses on improving these GW early-warning methods. 
+
+# My Research
+
+
 
 
 
