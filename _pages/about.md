@@ -3,5 +3,12 @@ permalink: /about/
 title: "About"
 ---
 
-I was born in a small village of Budaun, Uttar Pradesh. I completed my undergradute studies with B.Sc. Physics (Honours) at Sri Venkateswara College, University of Delhi (2014-17). After that, I moved to Indian Institute of Technology Madras (IITM) to pursue Masters in Physics (2017-19). Currently, I am pursuing my PhD in Gravitational Wave Astronomy under the supervision of Prof. Parameswaran Ajith at International Centre for Theoretical Sciences (ICTS-TIFR) Bengaluru.
+Greetings! I am Mukesh Kumar Singh, originally hailing from, Uttar Pradesh, a northern state of India. My academic journey has taken me from earning an undegraduate degree in physics at Sri Venkateswara College, University of Delhi to pursuing masters' degree in physics with a specialization in gravitational wave (GW) astronomy at Indian Institute of Technology Madras (IITM). 
+
+I am currently a graduate student in the Astrophysical Relativity Group at International Centre for Theoretical Sciences (ICTS-TIFR) Bengaluru, India. As part of my research activities under the guidance of Prof. Parameswaran Ajith, I straddle through GW data analysis techniques to enable the multimessenger follow-up as well as inferring the population properties of compact binary mergers. I am also a member of LIGO-Virgo-KAGRA (LVK) Collaboration and LIGO-India Scientific Collaboration (LISC).
+
+Beyond the confines of academia, I love playing badminton rather profusely. I am always up for moutain hikes. I also love running and playing Table Tennis in my spare time. These pursuits provide me with a well-rounded perspective and serve as a source of inspiration in my academic endeavors. 
+
+Thank you for visiting webpage! 
+
 
