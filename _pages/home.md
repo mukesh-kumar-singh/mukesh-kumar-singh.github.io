@@ -3,6 +3,8 @@ permalink: /home/
 title: ""
 ---
 
-# Coming soon
+# Mukesh Kumar Singh
 
-PhD Student at ICTS-TIFR Bengaluru.
+Hi there! I am Mukesh! I am a PhD Student at [International Centre for Theoretical Sciences](https://www.icts.res.in/), Tata Institute of Fundamental Research (ICTS-TIFR) Bengaluru. 
+
+More about me [here](https://mukesh-kumar-singh.github.io/about/).
