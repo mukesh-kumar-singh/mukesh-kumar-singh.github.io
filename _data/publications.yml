@@ -2,16 +2,58 @@
 # "status" is shown as a badge when the paper has no finalized journal entry yet.
 # Set "highlight" on author names that should be bolded (i.e. the site owner).
 
-- year:
-  title: ""
+- year: 2026
+  title: "Mapping the star formation peak with LIGO A# and Next-Generation detectors"
   authors:
+    - name: "Divyajyoti"
+    - name: "Stephen Fairhurst"
+    - name: "Mark Hannam"
+    - name: "Mukesh Kumar Singh"
+      highlight: true
+  status: "Preprint"
+  links:
+    arxiv: "https://arxiv.org/abs/2606.05151"
+
+- year: 2026
+  title: "Gravitational wave informed inference of 21-cm global signal parameters"
+  authors:
+    - name: "Avinash Tiwari"
+    - name: "Sajad A. Bhat"
+    - name: "Tirthankar Roy Choudhury"
+    - name: "Susmita Adhikari"
     - name: "Mukesh Kumar Singh"
       highlight: true
     - name: "Shasvath J. Kapadia"
-  status: ""
+  venue: "MNRAS, Volume 549, Issue 2, Article stag923"
   links:
-    arxiv: ""
-    journal: ""
+    arxiv: "https://arxiv.org/abs/2602.07631"
+    journal: "https://doi.org/10.1093/mnras/stag923"
+
+- year: 2026
+  title: "Early warning from eccentric compact binaries: Template initialization and subdominant mode effects"
+  authors:
+    - name: "Priyanka Sinha"
+    - name: "R. Prasad"
+    - name: "Mukesh Kumar Singh"
+      highlight: true
+    - name: "Prayush Kumar"
+    - name: "Akash Maurya"
+    - name: "Kaushik Paul"
+  venue: "Phys. Rev. D 113, 123060"
+  links:
+    arxiv: "https://arxiv.org/abs/2507.07021"
+    journal: "https://doi.org/10.1103/j77m-dyym"
+
+- year: 2025
+  title: "Observability of eccentricity in a population of merging compact binaries"
+  authors:
+    - name: "Mukesh Kumar Singh"
+      highlight: true
+    - name: "Ben G. Patterson"
+    - name: "Stephen Fairhurst"
+  status: "Preprint"
+  links:
+    arxiv: "https://arxiv.org/abs/2512.07688"
 
 - year: 2024
   title: "Impact of Higher Harmonics of Gravitational Radiation on the Population Inference of Binary Black Holes"
@@ -27,7 +69,7 @@
     journal: "https://iopscience.iop.org/article/10.3847/1538-4357/ad499b"
 
 - year: 2023
-  title: Associating fast radio bursts with compact binary mergers via gravitational lensing"
+  title: "Associating fast radio bursts with compact binary mergers via gravitational lensing"
   authors:
     - name: "Mukesh Kumar Singh"
       highlight: true
