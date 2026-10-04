@@ -6,25 +6,26 @@ author_profile: true
 classes: wide
 ---
 
+{% assign pub_count = site.data.publications | size %}
 <style>
-.pub-list { counter-reset: pub-counter; margin-top: 1em; }
+.pub-list { counter-reset: pub-counter {{ pub_count }}; margin-top: 0.6em; }
 .pub-year-heading {
-  font-size: 1.1em;
+  font-size: 1.05em;
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
   opacity: 0.6;
-  margin: 1.6em 0 0.6em;
+  margin: 1em 0 0.35em;
   border-bottom: 1px solid rgba(128,128,128,0.3);
-  padding-bottom: 0.2em;
+  padding-bottom: 0.15em;
 }
 .pub-year-heading:first-child { margin-top: 0; }
 .pub-card {
-  counter-increment: pub-counter;
+  counter-increment: pub-counter -1;
   position: relative;
-  padding: 0.9em 1em 0.9em 2.6em;
-  margin-bottom: 0.7em;
-  border-radius: 10px;
+  padding: 0.45em 0.7em 0.45em 2em;
+  margin-bottom: 0.35em;
+  border-radius: 8px;
   background: rgba(128, 128, 128, 0.08);
   border: 1px solid rgba(128, 128, 128, 0.18);
   transition: background 0.15s ease, transform 0.15s ease;
@@ -36,26 +37,27 @@ classes: wide
 .pub-card::before {
   content: counter(pub-counter);
   position: absolute;
-  left: 0.8em;
-  top: 0.95em;
+  left: 0.65em;
+  top: 0.5em;
   font-weight: 700;
-  font-size: 0.85em;
+  font-size: 0.8em;
   opacity: 0.5;
 }
 .pub-title {
   font-weight: 600;
-  font-size: 1.02em;
-  margin: 0 0 0.25em;
+  font-size: 0.96em;
+  margin: 0 0 0.1em;
+  line-height: 1.25;
 }
-.pub-authors { font-size: 0.95em; margin-bottom: 0.4em; opacity: 0.9; }
+.pub-authors { font-size: 0.88em; margin-bottom: 0.15em; opacity: 0.9; line-height: 1.25; }
 .pub-authors .me { font-weight: 700; }
-.pub-meta { font-size: 0.88em; opacity: 0.75; margin-bottom: 0.5em; }
-.pub-links { display: flex; flex-wrap: wrap; gap: 0.5em; }
+.pub-meta { font-size: 0.82em; opacity: 0.75; margin-bottom: 0.25em; }
+.pub-links { display: flex; flex-wrap: wrap; gap: 0.35em; }
 .pub-badge {
   display: inline-block;
-  font-size: 0.78em;
+  font-size: 0.72em;
   font-weight: 600;
-  padding: 0.15em 0.65em;
+  padding: 0.05em 0.55em;
   border-radius: 999px;
   text-decoration: none !important;
   border: 1px solid currentColor;
