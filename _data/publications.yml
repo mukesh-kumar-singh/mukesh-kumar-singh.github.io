@@ -9,6 +9,25 @@
 
 - year: 2026
   category: "long"
+  title: "GWTC-5.0: Observations from the Second Part of the Fourth LIGO-Virgo-KAGRA Observing Run and Updates to the Gravitational-Wave Transient Catalog"
+  authors: []
+  authors_text: 'A. G. Abac et al. (LIGO Scientific, Virgo, and KAGRA Collaborations, including <span class="me">Mukesh Kumar Singh</span>)'
+  status: "Preprint"
+  links:
+    arxiv: "https://arxiv.org/abs/2605.27225"
+
+- year: 2026
+  category: "long"
+  title: "GWTC-4.0: Updating the Gravitational-Wave Transient Catalog with Observations from the First Part of the Fourth LIGO-Virgo-KAGRA Observing Run"
+  authors: []
+  authors_text: 'A. G. Abac et al. (LIGO Scientific, Virgo, and KAGRA Collaborations, including <span class="me">Mukesh Kumar Singh</span>)'
+  venue: "ApJ Letters, 1004, L22"
+  links:
+    arxiv: "https://arxiv.org/abs/2508.18082"
+    journal: "https://doi.org/10.3847/2041-8213/ae2c74"
+
+- year: 2026
+  category: "long"
   title: "GWTC-4.0: Tests of General Relativity. I. Overview and General Tests"
   authors: []
   authors_text: 'A. G. Abac et al. (LIGO Scientific, Virgo, and KAGRA Collaborations, including <span class="me">Mukesh Kumar Singh</span>)'
