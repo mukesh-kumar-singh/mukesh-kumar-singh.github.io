@@ -4,6 +4,40 @@
 # "category" is "short" for personal/small-team papers, or "long" for large
 # collaboration papers (e.g. LIGO-Virgo-KAGRA); each is shown in its own
 # year-grouped section on the page.
+# "authors_text" overrides the "authors" list rendering with raw text/HTML,
+# useful for large-collaboration papers (e.g. "Lead author et al. (...)").
+
+- year: 2026
+  category: "long"
+  title: "GWTC-4.0: Tests of General Relativity. I. Overview and General Tests"
+  authors: []
+  authors_text: 'A. G. Abac et al. (LIGO Scientific, Virgo, and KAGRA Collaborations, including <span class="me">Mukesh Kumar Singh</span>)'
+  status: "Preprint"
+  links:
+    arxiv: "https://arxiv.org/abs/2603.19019"
+
+- year: 2026
+  category: "long"
+  title: "GW230814: Investigation of a Loud Gravitational-wave Signal Observed with a Single Detector"
+  authors: []
+  authors_text: 'A. G. Abac et al. (LIGO Scientific, Virgo, and KAGRA Collaborations, including <span class="me">Mukesh Kumar Singh</span>)'
+  venue: "ApJ Letters, 1004, L23"
+  links:
+    arxiv: "https://arxiv.org/abs/2509.07348"
+    journal: "https://doi.org/10.3847/2041-8213/ae2ad3"
+
+- year: 2026
+  category: "long"
+  title: "GWTC-4.0: Population Properties of Merging Compact Binaries"
+  authors: []
+  authors_text: 'A. G. Abac et al. (LIGO Scientific, Virgo, and KAGRA Collaborations, including <span class="me">Mukesh Kumar Singh</span>)'
+  venue: "ApJ Letters, 1005, L51"
+  links:
+    arxiv: "https://arxiv.org/abs/2508.18083"
+    journal: "https://doi.org/10.3847/2041-8213/ae771e"
+
+
+
 
 - year: 2026
   category: "short"
