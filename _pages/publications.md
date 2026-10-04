@@ -6,9 +6,14 @@ author_profile: true
 classes: wide
 ---
 
-{% assign pub_count = site.data.publications | size | plus: 1 %}
 <style>
-.pub-list { counter-reset: pub-counter {{ pub_count }}; margin-top: 0.6em; }
+.pub-section-heading {
+  font-size: 1.3em;
+  font-weight: 700;
+  margin: 1.4em 0 0.4em;
+}
+.pub-section-heading:first-of-type { margin-top: 0.6em; }
+.pub-list { margin-top: 0.6em; }
 .pub-year-heading {
   font-size: 0.85em;
   font-weight: 700;
@@ -21,9 +26,8 @@ classes: wide
 }
 .pub-year-heading:first-child { margin-top: 0; }
 .pub-card {
-  counter-increment: pub-counter -1;
   position: relative;
-  padding: 0.45em 0.7em 0.45em 2em;
+  padding: 0.45em 0.7em;
   margin-bottom: 0.35em;
   border-radius: 8px;
   background: rgba(128, 128, 128, 0.08);
@@ -33,15 +37,6 @@ classes: wide
 .pub-card:hover {
   background: rgba(128, 128, 128, 0.15);
   transform: translateX(2px);
-}
-.pub-card::before {
-  content: counter(pub-counter);
-  position: absolute;
-  left: 0.65em;
-  top: 0.5em;
-  font-weight: 700;
-  font-size: 0.8em;
-  opacity: 0.5;
 }
 .pub-title {
   font-weight: 600;
@@ -69,8 +64,10 @@ classes: wide
 .pub-badge.status { color: #6b7280; border-style: dashed; }
 </style>
 
+<h2 class="pub-section-heading">Lead &amp; Co-Author Publications</h2>
 <div class="pub-list">
-{% assign pubs_by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
+{% assign short_pubs = site.data.publications | where: "category", "short" %}
+{% assign pubs_by_year = short_pubs | group_by: "year" | sort: "name" | reverse %}
 {% for group in pubs_by_year %}
   <div class="pub-year-heading">{{ group.name }}</div>
   {% for pub in group.items %}
@@ -89,3 +86,29 @@ classes: wide
   {% endfor %}
 {% endfor %}
 </div>
+
+{% assign long_pubs = site.data.publications | where: "category", "long" %}
+{% if long_pubs.size > 0 %}
+<h2 class="pub-section-heading">Collaboration Publications</h2>
+<div class="pub-list">
+{% assign pubs_by_year = long_pubs | group_by: "year" | sort: "name" | reverse %}
+{% for group in pubs_by_year %}
+  <div class="pub-year-heading">{{ group.name }}</div>
+  {% for pub in group.items %}
+  <div class="pub-card">
+    <p class="pub-title">{{ pub.title }}</p>
+    <p class="pub-authors">
+      {% for a in pub.authors %}{% if a.highlight %}<span class="me">{{ a.name }}</span>{% else %}{{ a.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+    </p>
+    {% if pub.venue %}<p class="pub-meta">{{ pub.venue }}</p>{% endif %}
+    <div class="pub-links">
+      {% if pub.links.arxiv %}<a class="pub-badge arxiv" href="{{ pub.links.arxiv }}" target="_blank" rel="noopener">arXiv</a>{% endif %}
+      {% if pub.links.journal %}<a class="pub-badge journal" href="{{ pub.links.journal }}" target="_blank" rel="noopener">Journal</a>{% endif %}
+      {% if pub.status %}<span class="pub-badge status">{{ pub.status }}</span>{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+{% endfor %}
+</div>
+
+{% endif %}

@@ -1,8 +1,12 @@
 # Publications, listed newest first.
 # "status" is shown as a badge when the paper has no finalized journal entry yet.
 # Set "highlight" on author names that should be bolded (i.e. the site owner).
+# "category" is "short" for personal/small-team papers, or "long" for large
+# collaboration papers (e.g. LIGO-Virgo-KAGRA); each is shown in its own
+# year-grouped section on the page.
 
 - year: 2026
+  category: "short"
   title: "Mapping the star formation peak with LIGO A# and Next-Generation detectors"
   authors:
     - name: "Divyajyoti"
@@ -15,6 +19,7 @@
     arxiv: "https://arxiv.org/abs/2606.05151"
 
 - year: 2026
+  category: "short"
   title: "Gravitational wave informed inference of 21-cm global signal parameters"
   authors:
     - name: "Avinash Tiwari"
@@ -30,6 +35,7 @@
     journal: "https://doi.org/10.1093/mnras/stag923"
 
 - year: 2026
+  category: "short"
   title: "Early warning from eccentric compact binaries: Template initialization and subdominant mode effects"
   authors:
     - name: "Priyanka Sinha"
@@ -45,6 +51,7 @@
     journal: "https://doi.org/10.1103/j77m-dyym"
 
 - year: 2025
+  category: "short"
   title: "Observability of eccentricity in a population of merging compact binaries"
   authors:
     - name: "Mukesh Kumar Singh"
@@ -56,6 +63,7 @@
     arxiv: "https://arxiv.org/abs/2512.07688"
 
 - year: 2024
+  category: "short"
   title: "Impact of Higher Harmonics of Gravitational Radiation on the Population Inference of Binary Black Holes"
   authors:
     - name: "Mukesh Kumar Singh"
@@ -69,6 +77,7 @@
     journal: "https://iopscience.iop.org/article/10.3847/1538-4357/ad499b"
 
 - year: 2023
+  category: "short"
   title: "Associating fast radio bursts with compact binary mergers via gravitational lensing"
   authors:
     - name: "Mukesh Kumar Singh"
@@ -83,6 +92,7 @@
     journal: "https://doi.org/10.1093/mnras/stad3376"
 
 - year: 2023
+  category: "short"
   title: "Gear-up for the Action Replay: Leveraging Lensing for Enhanced Gravitational-Wave Early-Warning"
   authors:
     - name: "Sourabh Magare"
@@ -98,6 +108,7 @@
     journal: "https://iopscience.iop.org/article/10.3847/2041-8213/acf668"
 
 - year: 2022
+  category: "short"
   title: "Improved early-warning estimates of luminosity distance and orbital inclination of compact binary mergers using higher modes of gravitational radiation"
   authors:
     - name: "Mukesh Kumar Singh"
@@ -112,6 +123,7 @@
     journal: "https://doi.org/10.1093/mnras/stac852"
 
 - year: 2021
+  category: "short"
   title: "Improved early warning of compact binary mergers using higher modes of gravitational radiation: A population study"
   authors:
     - name: "Mukesh Kumar Singh"
@@ -126,6 +138,7 @@
     journal: "https://doi.org/10.1093/mnras/stab125"
 
 - year: 2020
+  category: "short"
   title: "Of Harbingers and Higher Modes: Improved gravitational-wave early-warning of compact binary mergers"
   authors:
     - name: "Shasvath J. Kapadia"
@@ -140,6 +153,7 @@
     journal: "https://iopscience.iop.org/article/10.3847/2041-8213/aba42d"
 
 - year: 2019
+  category: "short"
   title: "Effect of holmium doping on structural, electrical and piezoelectric properties of lead-free (Ba,Ca)(Ti,Sn)O3 ceramics"
   authors:
     - name: "Chitra"
