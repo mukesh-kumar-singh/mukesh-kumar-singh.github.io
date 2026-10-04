@@ -1,0 +1,84 @@
+# Publications, listed newest first.
+# "status" is shown as a badge when the paper has no finalized journal entry yet.
+# Set "highlight" on author names that should be bolded (i.e. the site owner).
+
+- year: 2023
+  title: "Déjà-vu et Déjà-entendu: Associating fast radio bursts with compact binary mergers via gravitational lensing"
+  authors:
+    - name: "Mukesh Kumar Singh"
+      highlight: true
+    - name: "Shasvath J. Kapadia"
+    - name: "Soummyadip Basak"
+    - name: "Parameswaran Ajith"
+    - name: "Shriharsh P. Tendulkar"
+  status: "Submitted to MNRAS"
+  links:
+    arxiv: "https://arxiv.org/abs/2304.02879"
+
+- year: 2023
+  title: "Gear-up for the Action Replay: Leveraging Lensing for Enhanced Gravitational-Wave Early-Warning"
+  authors:
+    - name: "Sourabh Magare"
+    - name: "Shasvath J. Kapadia"
+    - name: "Anupreeta More"
+    - name: "Mukesh Kumar Singh"
+      highlight: true
+    - name: "Parameswaran Ajith"
+    - name: "A. N. Ramprakash"
+  status: "Submitted to ApJL"
+  links:
+    arxiv: "https://arxiv.org/abs/2302.02916"
+
+- year: 2022
+  title: "Improved early-warning estimates of luminosity distance and orbital inclination of compact binary mergers using higher modes of gravitational radiation"
+  authors:
+    - name: "Mukesh Kumar Singh"
+      highlight: true
+    - name: "Divyajyoti"
+    - name: "Shasvath J. Kapadia"
+    - name: "Md Arif Shaikh"
+    - name: "Parameswaran Ajith"
+  venue: "MNRAS, Volume 513, Issue 3, Pages 3798–3809"
+  links:
+    arxiv: "https://arxiv.org/abs/2202.05802"
+    journal: "https://doi.org/10.1093/mnras/stac852"
+
+- year: 2021
+  title: "Improved early warning of compact binary mergers using higher modes of gravitational radiation: A population study"
+  authors:
+    - name: "Mukesh Kumar Singh"
+      highlight: true
+    - name: "Shasvath J. Kapadia"
+    - name: "Md Arif Shaikh"
+    - name: "Deep Chatterjee"
+    - name: "Parameswaran Ajith"
+  venue: "MNRAS, Volume 502, Issue 2, Pages 1612–1622"
+  links:
+    arxiv: "https://arxiv.org/abs/2010.12407"
+    journal: "https://doi.org/10.1093/mnras/stab125"
+
+- year: 2020
+  title: "Of Harbingers and Higher Modes: Improved gravitational-wave early-warning of compact binary mergers"
+  authors:
+    - name: "Shasvath J. Kapadia"
+    - name: "Mukesh Kumar Singh"
+      highlight: true
+    - name: "Md Arif Shaikh"
+    - name: "Deep Chatterjee"
+    - name: "Parameswaran Ajith"
+  venue: "ApJ Letters, 898, L39"
+  links:
+    arxiv: "https://arxiv.org/abs/2005.08830"
+    journal: "https://iopscience.iop.org/article/10.3847/2041-8213/aba42d"
+
+- year: 2019
+  title: "Effect of holmium doping on structural, electrical and piezoelectric properties of lead-free (Ba,Ca)(Ti,Sn)O3 ceramics"
+  authors:
+    - name: "Chitra"
+    - name: "R. Laishram"
+    - name: "A. Vashishtha"
+    - name: "M.K. Singh"
+      highlight: true
+    - name: "K.K. Chandra"
+    - name: "K.C. Singh"
+  venue: "Journal of Materials Science: Materials in Electronics 30 (4), 3965-3972"

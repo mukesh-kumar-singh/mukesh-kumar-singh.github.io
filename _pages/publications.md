@@ -1,18 +1,88 @@
 ---
 permalink: /publications/
-title: ""
+title: "Publications"
+layout: single
+author_profile: true
 ---
 
-# Selected Publications
+<style>
+.pub-list { counter-reset: pub-counter; margin-top: 1em; }
+.pub-year-heading {
+  font-size: 1.1em;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.6;
+  margin: 1.6em 0 0.6em;
+  border-bottom: 1px solid rgba(128,128,128,0.3);
+  padding-bottom: 0.2em;
+}
+.pub-year-heading:first-child { margin-top: 0; }
+.pub-card {
+  counter-increment: pub-counter;
+  position: relative;
+  padding: 0.9em 1em 0.9em 2.6em;
+  margin-bottom: 0.7em;
+  border-radius: 10px;
+  background: rgba(128, 128, 128, 0.08);
+  border: 1px solid rgba(128, 128, 128, 0.18);
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+.pub-card:hover {
+  background: rgba(128, 128, 128, 0.15);
+  transform: translateX(2px);
+}
+.pub-card::before {
+  content: counter(pub-counter);
+  position: absolute;
+  left: 0.8em;
+  top: 0.95em;
+  font-weight: 700;
+  font-size: 0.85em;
+  opacity: 0.5;
+}
+.pub-title {
+  font-weight: 600;
+  font-size: 1.02em;
+  margin: 0 0 0.25em;
+}
+.pub-authors { font-size: 0.95em; margin-bottom: 0.4em; opacity: 0.9; }
+.pub-authors .me { font-weight: 700; }
+.pub-meta { font-size: 0.88em; opacity: 0.75; margin-bottom: 0.5em; }
+.pub-links { display: flex; flex-wrap: wrap; gap: 0.5em; }
+.pub-badge {
+  display: inline-block;
+  font-size: 0.78em;
+  font-weight: 600;
+  padding: 0.15em 0.65em;
+  border-radius: 999px;
+  text-decoration: none !important;
+  border: 1px solid currentColor;
+  opacity: 0.85;
+}
+.pub-badge:hover { opacity: 1; }
+.pub-badge.arxiv { color: #b31b1b; }
+.pub-badge.journal { color: #2b6cb0; }
+.pub-badge.status { color: #6b7280; border-style: dashed; }
+</style>
 
-5) **Mukesh Kumar Singh**, Shasvath J. Kapadia, Soummyadip Basak, Parameswaran Ajith, Shriharsh P. Tendulkar, *Déjà-vu et Déjà-entendu: Associating fast radio bursts with compact binary mergers via gravitational lensing*, [arXiv:2304.02879](https://arxiv.org/abs/2304.02879), Submitted to MNRAS.
-
-5) Sourabh Magare, Shasvath J. Kapadia, Anupreeta More, **Mukesh Kumar Singh**, Parameswaran Ajith, A. N. Ramprakash, *Gear-up for the Action Replay: Leveraging Lensing for Enhanced Gravitational-Wave Early-Warning*, [arXiv:2302.02916](https://arxiv.org/abs/2302.02916), Submitted to ApJL.
-
-4) **Mukesh Kumar Singh**, Divyajyoti, Shasvath J. Kapadia, Md Arif Shaikh, Parameswaran Ajith, *Improved early-warning estimates of luminosity distance and orbital inclination of compact binary mergers using higher modes of gravitational radiation*, [arXiv:2202.05802](https://arxiv.org/abs/2202.05802), [MNRAS]( https://doi.org/10.1093/mnras/stac852), Volume 513, Issue 3, July 2022, Pages 3798–3809.
-
-3) **Mukesh Kumar Singh**, Shasvath J. Kapadia, Md Arif Shaikh, Deep Chatterjee, Parameswaran Ajith, *Improved early warning of compact binary mergers using higher modes of gravitational radiation: A population study*, [arXiv:2010.12407](https://arxiv.org/abs/2010.12407), [MNRAS](https://doi.org/10.1093/mnras/stab125), Volume 502, Issue 2, Pages 1612–1622, (2021).
-
-2) Shasvath J. Kapadia, **Mukesh Kumar Singh**, Md Arif Shaikh, Deep Chatterjee, Parameswaran Ajith, *Of Harbingers and Higher Modes: Improved gravitational-wave early-warning of compact binary mergers*, [arXiv:2005.08830](https://arxiv.org/abs/2005.08830), [ApJ Letters](https://iopscience.iop.org/article/10.3847/2041-8213/aba42d), 898, L39, (2020).
-
-1) Chitra, R. Laishram, A. Vashishtha, **M.K. Singh**, K.K. Chandra, K.C. Singh, *Effect of holmium doping on structural, electrical and piezoelectric properties of lead-free (Ba,Ca)(Ti,Sn)$O_{3}$ ceramics*, Journal of Materials Science: Materials in Electronics **30** (4), 3965-3972 (2019).
+<div class="pub-list">
+{% assign pubs_by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
+{% for group in pubs_by_year %}
+  <div class="pub-year-heading">{{ group.name }}</div>
+  {% for pub in group.items %}
+  <div class="pub-card">
+    <p class="pub-title">{{ pub.title }}</p>
+    <p class="pub-authors">
+      {% for a in pub.authors %}{% if a.highlight %}<span class="me">{{ a.name }}</span>{% else %}{{ a.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+    </p>
+    {% if pub.venue %}<p class="pub-meta">{{ pub.venue }}</p>{% endif %}
+    <div class="pub-links">
+      {% if pub.links.arxiv %}<a class="pub-badge arxiv" href="{{ pub.links.arxiv }}" target="_blank" rel="noopener">arXiv</a>{% endif %}
+      {% if pub.links.journal %}<a class="pub-badge journal" href="{{ pub.links.journal }}" target="_blank" rel="noopener">Journal</a>{% endif %}
+      {% if pub.status %}<span class="pub-badge status">{{ pub.status }}</span>{% endif %}
+    </div>
+  </div>
+  {% endfor %}
+{% endfor %}
+</div>
