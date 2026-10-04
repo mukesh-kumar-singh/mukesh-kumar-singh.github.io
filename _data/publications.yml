@@ -2,8 +2,32 @@
 # "status" is shown as a badge when the paper has no finalized journal entry yet.
 # Set "highlight" on author names that should be bolded (i.e. the site owner).
 
+- year:
+  title: ""
+  authors:
+    - name: "Mukesh Kumar Singh"
+      highlight: true
+    - name: "Shasvath J. Kapadia"
+  status: ""
+  links:
+    arxiv: ""
+    journal: ""
+
+- year: 2024
+  title: "Impact of Higher Harmonics of Gravitational Radiation on the Population Inference of Binary Black Holes"
+  authors:
+    - name: "Mukesh Kumar Singh"
+      highlight: true
+    - name: "Shasvath J. Kapadia"
+    - name: "Aditya Vijaykumar"
+    - name: "Parameswaran Ajith"
+  venue: "The Astrophysical Journal, Volume 971, Number 1"
+  links:
+    arxiv: "https://arxiv.org/abs/2312.07376"
+    journal: "https://iopscience.iop.org/article/10.3847/1538-4357/ad499b"
+
 - year: 2023
-  title: "Déjà-vu et Déjà-entendu: Associating fast radio bursts with compact binary mergers via gravitational lensing"
+  title: Associating fast radio bursts with compact binary mergers via gravitational lensing"
   authors:
     - name: "Mukesh Kumar Singh"
       highlight: true
@@ -11,9 +35,10 @@
     - name: "Soummyadip Basak"
     - name: "Parameswaran Ajith"
     - name: "Shriharsh P. Tendulkar"
-  status: "Submitted to MNRAS"
+  venue: "MNRAS, Volume 527, Issue 2, January 2024, Pages 4234-4243"
   links:
     arxiv: "https://arxiv.org/abs/2304.02879"
+    journal: "https://doi.org/10.1093/mnras/stad3376"
 
 - year: 2023
   title: "Gear-up for the Action Replay: Leveraging Lensing for Enhanced Gravitational-Wave Early-Warning"
@@ -25,9 +50,10 @@
       highlight: true
     - name: "Parameswaran Ajith"
     - name: "A. N. Ramprakash"
-  status: "Submitted to ApJL"
+  venue: "ApJL, 955, L31"
   links:
     arxiv: "https://arxiv.org/abs/2302.02916"
+    journal: "https://iopscience.iop.org/article/10.3847/2041-8213/acf668"
 
 - year: 2022
   title: "Improved early-warning estimates of luminosity distance and orbital inclination of compact binary mergers using higher modes of gravitational radiation"
