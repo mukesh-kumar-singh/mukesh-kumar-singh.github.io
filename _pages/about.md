@@ -4,9 +4,11 @@ title: "About"
 classes: wide
 ---
 
-Greetings! I am Mukesh Kumar Singh, originally hailing from Uttar Pradesh, a northern state of India. My academic journey has taken me from earning an undegraduate degree with physics major at [Sri Venkateswara College](% https://www.svc.ac.in/), [University of Delhi](https://www.du.ac.in/) to pursuing masters' degree in physics with a specialization in gravitational wave (GW) astronomy at [Indian Institute of Technology Madras](https://www.iitm.ac.in/) (IITM). 
+Greetings! I am Mukesh Kumar Singh, originally hailing from Uttar Pradesh, a northern state of India. My academic journey has taken me from earning an undegraduate degree with physics major at [Sri Venkateswara College](% https://www.svc.ac.in/), [University of Delhi](https://www.du.ac.in/) to pursuing masters' degree in physics at [Indian Institute of Technology Madras](https://www.iitm.ac.in/) (IITM).
 
-I am currently a graduate student in the [Astrophysical Relativity Group](https://www.icts.res.in/research/astrorel) at [International Centre for Theoretical Sciences](https://www.icts.res.in/) (ICTS-TIFR) Bengaluru, India. As part of my research activities under the guidance of Prof. Parameswaran Ajith, I study the GW signals emitted by the mergers of a pair of compact objects such as black holes and neutron stars to infer their astrophysical properties. I am also a member of [LIGO-Virgo-KAGRA](https://www.ligo.org/) (LVK) Collaboration and [LIGO-India Scientific Collaboration](https://www.ligo-india.in/lisc/) (LISC). More information about my research can be found [here](https://mukesh-kumar-singh.github.io/research/).	
+I was earned my PhD with a specialization in gravitational wave (GW) astronomy in the [Astrophysical Relativity Group](https://www.icts.res.in/research/astrorel) at [International Centre for Theoretical Sciences](https://www.icts.res.in/) (ICTS-TIFR) Bengaluru, India. As part of my research activities under the guidance of Prof. Parameswaran Ajith, I studied the GW signals emitted by the mergers of a pair of compact objects such as black holes and neutron stars to infer their astrophysical properties.
+
+I am currently an STFC Postdoctoral fellow at Cardiff University. My research focusses on developing rapid and efficient parameter estimation routines for GW signals from compact binary mergers as well as to infe their population properties which enable us constraint their formation channels. I am also a member of [LIGO-Virgo-KAGRA](https://www.ligo.org/) (LVK) Collaboration. More information about my research can be found [here](https://mukesh-kumar-singh.github.io/research/).
 
 Beyond the confines of academia, I love playing badminton rather profusely. I am always up for moutain hikes. 
 
