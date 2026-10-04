@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Mukesh Kumar Singh"
   avatar : "/assets/images/mukeshkumar.jpeg"
-  bio    : "Graduate student, International Centre for Theoretical Sciences (ICTS-TIFR) Bengaluru, India."
+  bio    : "Posdoctoral fellow at Cardiff University"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
