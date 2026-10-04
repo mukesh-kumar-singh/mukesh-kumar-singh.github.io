@@ -1,6 +1,7 @@
 ---
 permalink: /about/
 title: "About"
+classes: wide
 ---
 
 Greetings! I am Mukesh Kumar Singh, originally hailing from Uttar Pradesh, a northern state of India. My academic journey has taken me from earning an undegraduate degree with physics major at [Sri Venkateswara College](% https://www.svc.ac.in/), [University of Delhi](https://www.du.ac.in/) to pursuing masters' degree in physics with a specialization in gravitational wave (GW) astronomy at [Indian Institute of Technology Madras](https://www.iitm.ac.in/) (IITM). 
