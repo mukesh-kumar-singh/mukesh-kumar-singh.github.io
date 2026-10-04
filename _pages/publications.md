@@ -6,7 +6,7 @@ author_profile: true
 classes: wide
 ---
 
-{% assign pub_count = site.data.publications | size %}
+{% assign pub_count = site.data.publications | size | plus: 1 %}
 <style>
 .pub-list { counter-reset: pub-counter {{ pub_count }}; margin-top: 0.6em; }
 .pub-year-heading {
@@ -46,12 +46,12 @@ classes: wide
 .pub-title {
   font-weight: 600;
   font-size: 0.96em;
-  margin: 0 0 0.1em;
+  margin: 0;
   line-height: 1.25;
 }
-.pub-authors { font-size: 0.88em; margin-bottom: 0.15em; opacity: 0.9; line-height: 1.25; }
+.pub-authors { font-size: 0.88em; margin: 0; opacity: 0.9; line-height: 1.25; }
 .pub-authors .me { font-weight: 700; }
-.pub-meta { font-size: 0.82em; opacity: 0.75; margin-bottom: 0.25em; }
+.pub-meta { font-size: 0.82em; opacity: 0.75; margin: 0 0 0.25em; }
 .pub-links { display: flex; flex-wrap: wrap; gap: 0.35em; }
 .pub-badge {
   display: inline-block;
