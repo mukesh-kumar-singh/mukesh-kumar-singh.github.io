@@ -1,6 +1,7 @@
 ---
 permalink: /research/
 title: ""
+classes: wide
 ---
 
 # Gravitational Wave Astronomy
@@ -15,6 +16,8 @@ Since the first detection, LIGO in collaboration with Virgo interferometer has o
 counterpart almost in the whole range of electromagnetic spectrum. This unprecedented joint gravitational and electromagnetic observation provided first direct evidence of a link between these BNS mergers and short γ-ray bursts and offered some hints on the formation of heavy elements in stars. It also provided new tools to study dense matter and cosmology. To realize the full scientific potential of such events, one would need to detect and identify the source location promptly. This will enable astronomers to point their telescopes to the source location before transient EM emission fades away. A significant part of my research focuses on improving these GW early-warning methods. 
 
 # My Research
+
+I currently work on developing rapid and efficient parameter estimation rountines for GW signals emitted from compact binary mergers. I also study the population properties of compact binary mergers that enable us to constrain their formation channels.
 
 
 
